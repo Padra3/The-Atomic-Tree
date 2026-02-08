@@ -25,4 +25,10 @@ addLayer("Q", {
         {key: "Q", description: "Q: Reset for Quarks", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true},
-})
+    upgrades: {
+        11: {
+            title: "Double points",
+            description: "Double your point gain.",
+            cost: new Decimal(1)
+        },
+}})
