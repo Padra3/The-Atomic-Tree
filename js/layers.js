@@ -27,8 +27,18 @@ addLayer("Q", {
     layerShown(){return true},
     upgrades: {
         11: {
-            title: "Double points",
-            description: "Double your point gain.",
+            title: "Up quarks",
+            description: "Double your quarks gain.",
             cost: new Decimal(1)
+        },
+        12: {
+            title: "down quarks",
+            description: "Triple your quarks gain.",
+            cost: new Decimal(5)
+        },
+        13: {
+            title: "Charm quarks",
+            description: "x4 quarks.",
+            cost: new Decimal(35)
         },
 }})
